@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="bg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1024px" height="576px" viewBox="0 0 1024 576" enable-background="new 0 0 1024 576" xml:space="preserve">
+<defs>
+  <pattern id="dotsPattern" x="10" y="10" width="10" height="10" patternUnits="userSpaceOnUse" >
+      <circle cx="10" cy="10" r="2" style="stroke: none; fill: lightgrey; opacity: 0.5;" />
+  </pattern>
+</defs>
+<polygon fill="#FDEABA" points="1023,251.765 818.308,330.61 1023,411.826 "/>
+<polygon fill="#F2B1B2" points="818.558,330.86 181.171,576.722 1023,576.722 1023,411.826 "/>
+<polygon fill="#A5D8D8" points="-1,576.722 181.171,576.722 400.82,491.769 -1,338.488 "/>
+<polygon style="fill: url(#dotsPattern);"  points="1023,0.722 -1,0.722 -1,338.488 400.57,491.519 1023,251.765 "/>
+</svg>

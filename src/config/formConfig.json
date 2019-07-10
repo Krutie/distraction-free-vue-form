@@ -1,0 +1,75 @@
+[
+  {
+    "type": "text",
+    "label": "First Name",
+    "name": "firstName",
+    "options": {
+      "attrs": {
+        "placeholder": "First Name"
+      }
+    },
+    "validation": "required"
+  },
+  {
+    "type": "text",
+    "label": "Last Name",
+    "name": "lastName",
+    "options": {
+      "attrs": {
+        "placeholder": "Last Name"
+      }
+    },
+    "validation": ""
+  },
+  {
+    "type": "check",
+    "label": "Courses",
+    "name": "courses",
+    "options": {
+      "choices": ["Project Management", "Business Analysis", "Product Management"]
+    },
+    "validation": "required"
+  },
+  {
+    "type": "radio",
+    "label": "Study Option",
+    "name": "studyOption",
+    "options": {
+      "choices": ["Full-time", "Part-time", "Distant"]
+    },
+    "validation": "required"
+  },
+  {
+    "type": "text",
+    "label": "Your Email",
+    "name": "email",
+    "options": {
+      "attrs": {
+        "placeholder": "Your Email"
+      }
+    },
+    "validation": "required|email"
+  },
+  {
+    "type": "text",
+    "label": "Your phone Number",
+    "name": "phone",
+    "options": {
+      "attrs": {
+        "placeholder": "Your Contact"
+      }
+    },
+    "validation": "required|numeric"
+  },
+  {
+    "type": "textarea",
+    "label": "Tell us why do you want to study with us?",
+    "name": "message",
+    "options": {
+      "attrs": {
+        "placeholder": "Write here..."
+      }
+    },
+    "validation": ""
+  }
+]

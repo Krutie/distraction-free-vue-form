@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap");
+body {
+  margin: 0;
+}
+#app {
+  font-family: "Rubik", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  background-image: url("../img/bg.svg");
+  background-position: bottom;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+/* Logo Title - Advanced Vue.js Form */
+.logo {
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+.logo h1 {
+  font-weight: 500;
+  font-size: 1.7em;
+  text-align: center;
+  user-select: none;
+}
+
+/* HTML Tags */
+h1 {
+  margin: 15px;
+  font-weight: 300;
+}
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.75em;
+}
+
+h2:not(:first-child) {
+  margin-top: 0.75em;
+}
+input[type="checkbox"] {
+}
+
+*:focus {
+  outline: none;
+}
+
+input[type="text"],
+textarea {
+  border-color: transparent;
+  border-bottom: 1px dashed #95c3c4 !important;
+  height: 30px;
+  width: 75%;
+  font-size: 1.5em;
+  border-radius: 3px;
+  background-color: transparent;
+}
+textarea {
+  height: 120px;
+  width: 100%;
+}
+
+/* Form */
+.form-group {
+  position: absolute;
+  top: Calc(25% - 100px);
+  width: 100%;
+}
+.form-label {
+  display: block;
+  font-size: 1.7em;
+  padding-bottom: 15px;
+}
+.form-area {
+  padding: 3em;
+  background-color: #d6f1ef;
+  box-shadow: 1px 1px 1px 1px rgba(106, 145, 146, 0.4);
+  border-radius: 10px;
+  margin: 5% 10%;
+}
+.form-error-message {
+  font-size: smaller;
+  margin: 1em;
+  font-size: 1.3em;
+  font-weight: 300;
+  color: #ef6574;
+  text-align: center;
+  font-weight: 400;
+}
+.form-complete {
+  padding-top: 5%;
+  font-size: 1.2em;
+}
+.form-complete h1 {
+  text-align: center;
+  font-size: 1.5em;
+}
+.form-complete p {
+  padding-left: 100px;
+}
+
+/* Navigation and Progress Bar */
+.nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: inherit;
+  padding: 5px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  transition: background-color 0.5s ease;
+}
+
+/*button {
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  position: inherit;
+  left: Calc(50% - 25px);
+  font-weight: 700;
+  box-shadow: 1px 1px 1px 1px rgba(106, 145, 146, 0.4);
+  cursor: pointer;
+}*/
+
+.form-button {
+  border: 2px solid white;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  left: Calc(50% - 25px);
+  box-shadow: 1px 1px 1px 1px rgba(106, 145, 146, 0.4);
+  cursor: pointer;
+}
+
+.nav .form-button {
+  font-weight: 500;
+  padding: 10px;
+  background-color: rgba(96, 125, 139, 0.25);
+}
+.form-error-message .form-button {
+  font-weight: 700;
+  padding: 10px;
+  position: inherit;
+}
+
+/*.nav div {
+  padding: 5px;
+  width: min-content;
+  border: 2px solid;
+  margin: 0px 10px;
+  border-radius: 5px;
+  float: left;
+  cursor: pointer;
+}*/
+.bar {
+  height: 7px;
+  width: 0px;
+  background-color: #fefaa1;
+  border-radius: 2px;
+  position: fixed;
+  bottom: 66px;
+}
+
+/* Generic media query for portrait mode */
+@media only screen and (orientation: portrait) {
+  input[type="text"] {
+    font-size: 1.4em;
+  }
+  textarea {
+    font-size: 1.2em;
+  }
+  .form-label {
+    font-size: 1.5em;
+  }
+  .form-group {
+    top: Calc(40% - 100px) !important;
+  }
+  .form-area {
+    padding: 2em 1em !important;
+  }
+  .form-error-message .form-button {
+    display: none;
+  }
+  .form-complete {
+    padding-top: 35%;
+    pading-bottom: 35%;
+  }
+
+  .form-complete p {
+    padding-left: 30px !important;
+  }
+}
