@@ -14,7 +14,7 @@ export default {
   watch: {
     percent(newVal) {
       let el = document.getElementsByClassName("bar")
-      var tl = new TimelineLite()
+      let tl = new TimelineLite()
       tl.to(el, 1, {
         width: newVal + "%"
       })
