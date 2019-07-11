@@ -1,5 +1,5 @@
 <template>
-  <label class="form-label">
+  <label class="field-label">
     <slot />
   </label>
 </template>

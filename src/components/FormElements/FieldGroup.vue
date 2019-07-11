@@ -1,6 +1,6 @@
 <template>
   <data-driven-transition :isNext="isNext">
-    <div class="form-group" v-if="active" :key="fieldId">
+    <div class="field-group" v-if="active" :key="fieldId">
       <slot />
     </div>
   </data-driven-transition>

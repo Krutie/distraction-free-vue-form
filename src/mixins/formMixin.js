@@ -40,7 +40,7 @@ export default {
   methods: {
     next() {
       this.formState.isNext = true
-      this.isCurrentFieldValid ? this.proceed() : this.decline(".form-area")
+      this.isCurrentFieldValid ? this.proceed() : this.decline(".field-area")
     },
     back() {
       this.formState.isNext = false

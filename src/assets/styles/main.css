@@ -63,17 +63,17 @@ textarea {
 }
 
 /* Form */
-.form-group {
+.field-group {
   position: absolute;
   top: Calc(25% - 100px);
   width: 100%;
 }
-.form-label {
+.field-label {
   display: block;
   font-size: 1.7em;
   padding-bottom: 15px;
 }
-.form-area {
+.field-area {
   padding: 3em;
   background-color: #d6f1ef;
   box-shadow: 1px 1px 1px 1px rgba(106, 145, 146, 0.4);
@@ -174,13 +174,13 @@ textarea {
   textarea {
     font-size: 1.2em;
   }
-  .form-label {
+  .field-label {
     font-size: 1.5em;
   }
-  .form-group {
+  .field-group {
     top: Calc(40% - 100px) !important;
   }
-  .form-area {
+  .field-area {
     padding: 2em 1em !important;
   }
   .form-error-message .form-button {

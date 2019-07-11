@@ -3,7 +3,7 @@
     <!-- Form Template -->
     <template v-for="(field, key) in formFields">
       <field-group :field-id="key" :key="`${_uid}-${field.name}`">
-        <div class="form-area">
+        <div class="field-area">
           <field-label :for="`${_uid}-${field.name}`"> {{ key + 1 }}. {{ field.label }} </field-label>
           <Component
             v-model="formData[field.name]"
