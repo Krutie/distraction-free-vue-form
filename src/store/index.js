@@ -1,13 +1,13 @@
 import Vue from "vue"
 import Vuex from "vuex"
 
-import EOI from "./form/eoi.js"
+import lead from "./form/lead.js"
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
   modules: {
-    EOI
+    lead
   },
   strict: process.env.NODE_ENV !== `production`
 })

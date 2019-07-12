@@ -59,7 +59,7 @@ export default {
   },
   methods: {
     ...mapMutations({
-      updateField: "EOI/updateField"
+      updateField: "lead/updateField"
     })
   }
 }
