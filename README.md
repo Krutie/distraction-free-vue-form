@@ -1,10 +1,10 @@
 # An Interactive and Distraction-free Form with Vue
 
-This is the supporting github repository for **Building an Interactive and Distraction-free Form with Vue** articles
+This is a supporting github repository for **Building an Interactive and Distraction-free Form with Vue** article.
 
 Learn how to build an interactive and distraction-free form using advanced concepts of the Vue.js framework and other supporting libraries for form validation and animations.
 
-![Project Image](/docs/images/screenshot.jpb)
+![Project Image](/docs/images/screenshot.jpg)
 
 ## Project setup
 
