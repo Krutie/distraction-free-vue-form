@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-for="(option, key) in options">
+    <label v-for="(option, key) in options" :key="key">
       <input
         type="checkbox"
         :value="option"
@@ -8,8 +8,9 @@
         v-model="selectedValues"
         v-checked:[option]="selectedValues"
       />
-      <label> {{ option }} </label>
-    </div>
+      {{ option }}
+    </label>
+    <!-- </div> -->
   </div>
 </template>
 <script>
@@ -38,10 +39,13 @@ export default {
   },
   directives: {
     checked(el, binding) {
-      return binding.value.includes(binding.arg)
-        ? (el.checked = true)
-        : (el.checked = false)
+      return binding.value.includes(binding.arg) ? (el.checked = true) : (el.checked = false)
     }
   }
 }
 </script>
+<style>
+label {
+  display: block;
+}
+</style>

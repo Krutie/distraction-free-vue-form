@@ -1,14 +1,9 @@
 <template>
   <div>
-    <div v-for="option in options">
-      <input
-        type="radio"
-        :value="option"
-        @input="$emit('input', $event.target.value)"
-        :checked="option === value"
-      />
+    <label v-for="(option, key) in options" :key="key">
+      <input type="radio" :value="option" @input="$emit('input', $event.target.value)" :checked="option === value" />
       {{ option }}
-    </div>
+    </label>
   </div>
 </template>
 <script>
