@@ -4,6 +4,8 @@ This is a supporting GitHub repository for **[Building an Interactive and Distra
 
 Learn how to build an interactive and distraction-free form using advanced concepts of the Vue.js framework and other supporting libraries for form validation and animations.
 
+### Take a look at the [Demo](http://distraction-free-vue-form.surge.sh/).
+
 ![Project Image](/docs/images/screenshot.jpg)
 
 ## Project setup
