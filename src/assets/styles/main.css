@@ -115,18 +115,6 @@ textarea {
   transition: background-color 0.5s ease;
 }
 
-/*button {
-  border: 2px solid white;
-  padding: 10px;
-  border-radius: 5px;
-  font-size: 1.2em;
-  position: inherit;
-  left: Calc(50% - 25px);
-  font-weight: 700;
-  box-shadow: 1px 1px 1px 1px rgba(106, 145, 146, 0.4);
-  cursor: pointer;
-}*/
-
 .form-button {
   border: 2px solid white;
   margin: 5px;
@@ -148,15 +136,6 @@ textarea {
   position: inherit;
 }
 
-/*.nav div {
-  padding: 5px;
-  width: min-content;
-  border: 2px solid;
-  margin: 0px 10px;
-  border-radius: 5px;
-  float: left;
-  cursor: pointer;
-}*/
 .bar {
   height: 7px;
   width: 0px;
@@ -166,6 +145,9 @@ textarea {
   bottom: 66px;
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+}
 /* Generic media query for portrait mode */
 @media only screen and (orientation: portrait) {
   input[type="text"] {
