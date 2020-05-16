@@ -2,7 +2,7 @@
   <type-based-transition :transitionType="'fadeUpDown'">
     <div v-if="isComplete" id="complete" class="form-complete">
       <h1>Thank you!</h1>
-      <p v-for="(item, key, index) in $store.state.lead.formData">
+      <p v-for="(item, key, index) in $store.state.lead.formData" :key="index">
         <span v-colorswatch:color="index"> {{ key }}: </span> {{ item }}
       </p>
     </div>
