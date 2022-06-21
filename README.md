@@ -1,4 +1,10 @@
-# An Interactive and Distraction-free Form with Vue
+# This repository has been archived.
+
+## Visit **[Advanced Vue 3 Form](https://github.com/Krutie/advanced-vue3-form)** repo for the latest implementation of the similar form.
+
+-----
+
+### An Interactive and Distraction-free Form with Vue
 
 This is a supporting GitHub repository for **[Building an Interactive and Distraction-free Form with Vue](https://medium.com/vue-mastery/building-an-interactive-and-distraction-free-form-with-vue-bfe23907e981)** article.
 
